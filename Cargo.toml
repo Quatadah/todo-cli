@@ -1,0 +1,8 @@
+[package]
+name = "todo-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.0", features = ["derive"] }
+colored = "2.0.0"
